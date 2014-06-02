@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainbackground" >
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+       
+        android:text="데이터베이스에 등록하기" />
+
+    <Button
+        android:id="@+id/boardview_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="작전판 보기 " />
+
+    <Button
+        android:id="@+id/wordview_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="관련용어 보기 " />
+</LinearLayout>

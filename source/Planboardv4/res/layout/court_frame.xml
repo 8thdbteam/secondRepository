@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left" >
+
+    <LinearLayout
+        android:id="@+id/courtpart"
+        android:layout_width="325dp"
+        android:layout_height="fill_parent"
+        android:background="@drawable/court"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/framepart"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="325dp"
+        android:background="#ffffD700"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/rdgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/fr0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f0" />
+
+            <RadioButton
+                android:id="@+id/fr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f1" />
+
+            <RadioButton
+                android:id="@+id/fr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f2" />
+
+            <RadioButton
+                android:id="@+id/fr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f3" />
+
+            <RadioButton
+                android:id="@+id/fr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f4" />
+
+            <RadioButton
+                android:id="@+id/fr5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f5" />
+
+            <RadioButton
+                android:id="@+id/fr6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f6" />
+
+            <RadioButton
+                android:id="@+id/fr7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f7" />
+
+            <RadioButton
+                android:id="@+id/fr8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f8" />
+
+            <RadioButton
+                android:id="@+id/fr9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="f9" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="단계저장" />
+
+        <Button
+            android:id="@+id/btnAllSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:text="전술저장" />
+    </LinearLayout>
+
+</FrameLayout>
